@@ -2,4 +2,7 @@
 
 @keyframes ddazFade{from{opacity:0}to{opacity:1}}@keyframes ddazSlide{from{transform:translateX(100%)}to{transform:translateX(0)}}
 
-[class*="shadow-\[0_1px_3px"]{border-radius:16px}
+[class*="shadow-\[0_1px_3px"]{border-radius:16px;border:1px solid transparent;background:linear-gradient(#fff,#fff) padding-box,linear-gradient(180deg,rgba(46,125,50,0.38) 0%,rgba(46,125,50,0.05) 100%) border-box}
+[class*="shadow-\[0_1px_3px"][class*="border-\[#A5D6A7\]"]{border-color:#A5D6A7}
+[class*="shadow-\[0_1px_3px"][class*="bg-\[#E8F5E9\]"]{background:#E8F5E9;border-color:rgba(46,125,50,0.35)}
+input,select,textarea{border-radius:10px}
