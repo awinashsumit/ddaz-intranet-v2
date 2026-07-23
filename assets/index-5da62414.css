@@ -6,3 +6,7 @@
 [class*="shadow-\[0_1px_3px"][class*="border-\[#A5D6A7\]"]{border-color:#A5D6A7}
 [class*="shadow-\[0_1px_3px"][class*="bg-\[#E8F5E9\]"]{background:#E8F5E9;border-color:rgba(46,125,50,0.35)}
 input,select,textarea{border-radius:10px}
+
+button{border-radius:10px}
+[class*="w-2 h-2"],[class*="w-1.5 h-1.5"],[class*="w-2.5 h-2.5"]{border-radius:999px}
+[class*="text-[9.5px]"][class*="px-"],[class*="text-[10px]"][class*="px-"],[class*="text-[10.5px]"][class*="px-"],[class*="text-[11px]"][class*="px-"],[class*="text-[11.5px]"][class*="px-"]{border-radius:999px}
